@@ -22,4 +22,7 @@ int main()
 	Mahasiswa mhs[3];
 	for (int i = 0; 1 < 3; i++) {
 		cout << "Data ke- " << (i + 1) << ":" << endl;
-		
+		cout << "Nomor Mahasiswa :";
+		getline(cin, mhs[i].nim);
+		cout << "Nama Mahasiswa :";
+		getline(cin, mhs[i].nama);
